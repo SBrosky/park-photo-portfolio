@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BC Parks</title>
+    <style>
+      body {
+        background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/051/712/original/Surrey_Bend_2.jpg?1667670194");
+        width: 100%;
+      }
+
+      h1 {
+        text-align: center;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 36px;
+        margin: 0px;
+      }
+      h2 {
+        text-align: center;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0px 0px 20px 0px;
+      }
+
+      img {
+        width: 100%;
+      }
+
+      p {
+        font-size: 16px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        line-height: 1.2em;
+      }
+
+      footer {
+        text-align: center;
+        font-family: monospace;
+        font-size: 14px;
+        color: white;
+      }
+
+      a {
+        font-size: 16px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-weight: lighter;
+        text-decoration: none;
+      }
+
+      .dark {
+        background: black;
+        color: white;
+      }
+
+      .dark .container {
+        background: rgba(255, 255, 255, 0.5);
+      }
+
+      .dark .change-theme {
+        background: rgba(255, 255, 255, 0.5);
+        box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.2);
+      }
+
+      .dark a {
+        color: white;
+      }
+
+      .dark .plan {
+        background: black;
+        border: 3px solid rgba(169, 153, 161, 0.8);
+      }
+
+      .change-theme {
+        background: black;
+        color: white;
+        border-radius: 10px;
+        display: block;
+        padding: 5px 15px;
+        margin: 20px auto;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+      }
+      .change-theme:hover {
+        background: white;
+        color: black;
+      }
+      .container {
+        width: 800px;
+        background: rgba(255, 255, 255, 0.8);
+        border-radius: 10px;
+        padding: 15px;
+        margin: 20px auto;
+      }
+      .surrey-bend {
+        border-radius: 15px;
+        transition: all 200ms ease-in-out;
+      }
+
+      .surrey-bend:hover {
+        filter: saturate(140%);
+        transform: scale(1.1);
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 10px;
+        margin: 10px 0px;
+      }
+
+      .grid img {
+        width: 100%;
+        aspect-ratio: 5/3;
+        border-radius: 6px;
+        transition: all 250ms ease-in-out;
+      }
+
+      .grid img:hover {
+        transform: scale(2);
+      }
+
+      .plan {
+        display: block;
+        margin: 0 auto;
+        background: rgba(230, 217, 227, 1);
+        padding: 10px 5px;
+        border: 2px solid blueviolet;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+      }
+
+      .plan:hover {
+        background: rgba(195, 220, 227, 0.3);
+        color: rgba(169, 153, 161, 0.8);
+      }
+    </style>
+  </head>
+  <body>
+    <button class="change-theme">Change Theme</button>
+    <div class="container">
+      <h1>Exploring British Columbia's Parks</h1>
+      <h2>My Outdoor Addiction</h2>
+      <a
+        href="http://www.metrovancouver.org/services/parks/parks-greenways-reserves/surrey-bend-regional-park"
+        target="_blank"
+        ><img
+          class="surrey-bend"
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/051/737/original/Surrey_Bend_1_.jpg?1667682077"
+          alt="girl in grass"
+      /></a>
+      <div class="grid">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/051/731/original/Eagle_bluff_5.jpg?1667682040"
+          alt="Raven with Blueberries"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/051/740/original/Winter2018_11.jpg?1667682106"
+          alt="Green Timbers Park"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/051/739/original/waterfall_Full_Height.jpg?1667682098"
+          alt="Bridal Falls"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/051/738/original/Surrey_Bend_2.jpg?1667682083"
+          alt="Wheat at Dusk"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/051/736/original/RacoonJuly232016.jpg?1667682072"
+          alt="raccoon"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/051/735/original/mushrooms.jpg?1667682065"
+          alt="mushrooms"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/051/734/original/Herring_Jericho_Park_3.jpg?1667682057"
+          alt="Heron at Jericho"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/051/733/original/GoldenEars5.jpg?1667682051"
+          alt="Golden Ears"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/051/732/original/GoldenEars1.jpg?1667682045"
+          alt="Golden Ears"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/051/730/original/Eagel_Bluff_7.jpg?1667682033"
+          alt="Chipmunk"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/051/729/original/DSC_1705.jpg?1667682028"
+          alt="Burnaby Lake"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/051/728/original/Cypress_5.jpg?1667682022"
+          alt="Cypress Mountian"
+        />
+      </div>
+      <p>
+        British Columbia is home to numerous beautiful parks. Some are easy and
+        accessible, while others can challenge even the bravest adventurers.
+        There are many activities to do in BC parks: hiking, camping,
+        photography, skiing, snowshoeing, fishing, and mountian biking are just
+        a few of the draws that bring millions of visitors a year. <br />
+        <br />My favorite activity is photographing the many beautiful
+        landscapes and small creatures of the Pacific North-West. You can be
+        sure, if a Mountian Lion shows up, I am out of there!
+      </p>
+      <button class="plan">
+        <a href="https://bcparks.ca/" target="_blank"> Plan Your Trip</a>
+      </button>
+    </div>
+    <br />
+    <footer>Coded between hikes 🥾 by Steph Brosky</footer>
+    <script>
+      function changeTheme() {
+        let body = document.querySelector("body");
+        body.classList.toggle("dark");
+      }
+
+      let themeButton = document.querySelector(".change-theme");
+      themeButton.addEventListener("click", changeTheme);
+    </script>
+  </body>
+</html>
